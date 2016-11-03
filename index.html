@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="360-site-verification" content="c5ef4769b760fe74d7adb42f0c76b79b" />
+  <title>寓悦家居(Houpix)-全球品质、家居美物、绝美图库、装修攻略！</title>
+  <meta name="description" content="寓悦家居(Houpix)-全球品质、家居美物、绝美图库、装修攻略！专业的网上家居购物商城,销售各种海外家居数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!">
+  <meta name="Keywords" content="网上购物,网上商城,导购,家庭,生活,社交,高端,美食,手工,室内设计,时尚,进口,海淘,美居,家具,宜家,壁纸,收纳,日用品,家居,相机,摄影,租房,奢侈品,家装,寓悦,装修攻略">
+  <link rel="stylesheet" href="pcv2/css/style.css">
+  <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+
+if(screen.width<900){
+     location.href="/mobile/";
+}
+</script></head>
+<body>
+  <div class="houpix">
+    <div class="header">
+      <div class="container w1000">
+        <div class="logo">上海寓悦科技官方网站</div>
+        <ul>
+          <li>
+            <a href="index.html" >首页</a>
+          </li>
+          <li>
+            <a href="./pcv2/about.html" target="_blank">关于寓悦</a>
+          </li>
+          <li>
+            <a href="./pcv2/jobs.html" target="_blank">加入我们</a>
+          </li>
+          <li>
+            <a href="./pcv2/contact.html" target="_blank">联系我们</a>
+          </li>
+          <li>
+            <a href="http://de.houpix.com/" target="_blank">寓悦商城</a>
+          </li>
+        </ul>
+        <div class="sns">
+          <a href="" id="topFollow" class="weixin">寓悦微信</a>
+          <a href="//weibo.com/houpix?from=myfollow_all&is_all=1" class="weibo" target="_blank">寓悦微博</a>
+        </div>
+      </div>
+
+    </div>
+    <script>
+      function preloadImg(list,imgs) {
+          var def = $.Deferred(),
+              len = list.length;
+          $(list).each(function(i,e) {
+              var img = new Image();
+              img.src = e;
+              if(img.complete) {
+                  imgs[i] = img;
+                  len--;
+                  if(len == 0) {
+                      def.resolve();
+                  }
+              }
+              else {
+                  img.onload = (function(j) {
+                      return function() {
+                          imgs[j] = img
+                          len--;
+                          if(len == 0) {
+                              def.resolve();
+                          }
+                      };
+                  })(i);
+                  img.onerror = function() {
+                      len--;
+                      // console.log('fail to load image');
+                  };
+              }
+          });
+          return def.promise();
+      }
+      var list = ["pcv2/images/b1.jpg", "pcv2/images/b2.jpg", "pcv2/images/b3.jpg","pcv2/images/b4.jpg", "pcv2/images/b5.jpg", "pcv2/images/b6.jpg","pcv2/images/b7.jpg", "pcv2/images/b8.jpg", "pcv2/images/b9.jpg","pcv2/images/b10.jpg", "pcv2/images/b11.jpg", "pcv2/images/b12.jpg","pcv2/images/b13.jpg"],    //此处省略一万个字符
+          imgs = [];
+      $.when(preloadImg(list, imgs)).done(
+          function() {
+              //预加载结束
+              //do something here
+              // console.log("done");
+              // $("img").attr("src","pcv2/images/b13.jpg");
+          }
+      );
+    </script>
+    <div id="main">
+      <a class="btnLeft" id="btnLeft" href="javascript:void(0);" style="display: none;">
+        <img class="leftImg" src="pcv2/images/left.png" alt=""></a>
+      <a class="btnRight" id="btnRight" href="javascript:void(0);" style="display: none;">
+        <img class="leftImg" src="pcv2/images/right.png" alt=""></a>
+      <div class="box">
+        <img  src="pcv2/images/b1.jpg" />
+        <img src="pcv2/images/b2.jpg" />
+        <img src="pcv2/images/b3.jpg" />
+        <img  src="pcv2/images/b4.jpg" />
+        <img src="pcv2/images/b5.jpg" />
+        <img src="pcv2/images/b6.jpg" />
+        <img  src="pcv2/images/b7.jpg" />
+        <img src="pcv2/images/b8.jpg" />
+        <img src="pcv2/images/b9.jpg" />
+        <img  src="pcv2/images/b10.jpg" />
+        <img src="pcv2/images/b11.jpg" />
+        <img src="pcv2/images/b12.jpg" />
+        <img  src="pcv2/images/b13.jpg" />
+      </div>
+      <div class="yuyue" style="display: none;">
+        <img src="pcv2/images/font.png"  alt=""></div>
+      <div class="app2" style="display: none;">
+        <!--  <img src="pcv2/images/download-app.png" alt="" onclick="showdiv();">
+        -->
+        <img src="pcv2/images/down.png" alt="" class="down">
+        <a href="//weibo.com/houpix?from=myfollow_all&is_all=1" target="_blank">
+          <img src="pcv2/images/weibo-icon.png" alt=""></a>
+      </div>
+
+      <!--效果html结束-->
+      <div class="clear"></div>
+    </div>
+    <!-- 2016.03.08日更改图片 -->
+    <!-- <div class="container">
+    <img src="pcv2/images/ad1.jpg" alt=""></div>
+  -->
+  <div class="container">
+    <img src="pcv2/images/page1.jpg" alt=""></div>
+  <div class="container">
+    <ul class="ulgoods clearfix">
+      <li>
+        <a href="http://de.houpix.com/index.php?cl=details&anid=ce6cb074120525cc865a67b4756fc726" target="_blank">
+          <img src="pcv2/images/goods (1).jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="http://de.houpix.com/index.php?cl=details&anid=24c4d334b4ec7ef503a81cdd3ef96fa1" target="_blank">
+          <img src="pcv2/images/goods (2).jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="http://de.houpix.com/index.php?cl=details&anid=df25c09b9fac23fb546d2507239b248c" target="_blank">
+          <img src="pcv2/images/goods (3).jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="http://de.houpix.com/index.php?cl=details&anid=f5a7006b70b70d0805c4e02f0cbf53a7" target="_blank">
+          <img src="pcv2/images/goods (4).jpg" alt=""></a>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <img src="pcv2/images/ad2.jpg" alt=""></div>
+  <div class="container">
+    <img src="pcv2/images/ad3.jpg" alt=""></div>
+  <div class="container">
+    <img src="pcv2/images/ad4.jpg" alt=""></div>
+  <div class="container last">
+    <img src="pcv2/images/ad5.jpg" alt=""></div>
+  <div class="footer">
+    <div class="container">
+      <div class="w1000">
+        <div class="information">
+          <p class="fz33">400-698-6608</p>
+          <p>
+            <span>电子邮箱：</span>
+            service@houpix.com
+          </p>
+          <p>
+            <span>地 址：</span>
+            上海市徐汇区虹漕路39号B栋3楼
+          </p>
+        </div>
+        <div class="qr-code">
+          <div class="fl-l">
+            <img src="pcv2/images/weixin1.jpg" alt="">
+            <p>关注官方微博</p>
+          </div>
+          <div class="fl-r">
+            <img src="pcv2/images/weixin2.jpg" alt="">
+            <p>关注微信号公众号</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul>
+      <li>上海寓悦科技有限公司</li>
+      <li>Shanghai Houpix Technology Co., Ltd</li>
+      <li>沪ICP备15053773号-1</li>
+      <li>
+        <a href="http://m.kuaidi100.com/" target="_blank">快递查询</a>
+      </li>
+    </ul>
+  </div>
+  <div id="weChat" class="WeChat" style="display: none;">
+    <img src="pcv2/images/weixin2.jpg"></div>
+  <!--   弹出层
+    <div id="bg"></div>
+<div id="popup">
+  <img src="pcv2/images/tan.png" alt="扫码下载APP" onclick="hidediv();"></div>
+-->
+<!-- <div id="popup" style="display: block;"> <i class="close" onclick="hidediv();"></i>
+<div class="behalf clearfix">
+  <div class="mascot">
+    <img src="images/phone.png" class="mascotImg" alt=""></div>
+  <p class="slogan">寓悦家居APP下载</p>
+  <img class="img1" src="images/ios.png" alt="">
+  <img class="img2" src="images/and.jpg" alt="">
+  <img class="img3" src="images/qr-index.gif" alt=""></div>
+</div>
+-->
+<script src="./pcv2/js/common.js"></script>
+<script src="./pcv2/js/carousel.js"></script>
+<script src="./pcv2/js/position.js"></script>
+<script>
+  $(document).ready(function(){
+    setTimeout(function (){
+    $(".yuyue , .app2 ,.btnRight, .btnLeft").fadeIn(1000);
+    },500);
+  });
+</script>
+</div>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?f5b545b97a553520be943ba860a3aebe";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+</body>
+</html>

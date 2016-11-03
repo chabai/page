@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>寓悦科技官方网站</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/unslider.css">
+</head>
+<body>
+  <div class="header">
+    <div class="container w1000">
+      <div class="logo">上海寓悦科技官方网站</div>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="">寓悦商城</a></li>
+        <li><a href="about.html">关于寓悦</a></li>
+        <li><a href="jobs.html">加入我们</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+      <div class="sns">
+        <span>关注我们</span>
+        <a href="" class="weixin">寓悦微信</a>
+        <a href="" class="weibo">寓悦微博</a>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="main">
+    
+    <div class="banner my-slider">
+        <ul>
+          <li>
+            <div class="app">
+              <div class="app-link">
+                <a href="" class="ios"><img src="images/ios.png" alt=""></a>
+                <a href="" class="android"><img src="images/android.png" alt=""></a>
+              </div>
+              <img src="images/qr-index.gif" alt="">
+            </div>
+            <img src="images/banner1.jpg" alt="">
+          </li>
+          <li><img src="images/banner2.jpg" alt=""></li>
+        </ul>
+      
+    </div>
+    <div class="container">
+      <img src="images/ad1.jpg" alt="">
+    </div>
+    <div class="container">
+      <img src="images/ad2.jpg" alt="">
+    </div>
+    <div class="container">
+      <img src="images/ad3.jpg" alt="">
+    </div>
+    <div class="container">
+      <img src="images/ad4.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="w1000">
+        <div class="information">
+          <p class="fz33">4000-000-957</p>
+          <p><span>电子邮箱：</span>support@houpix.com</p>
+          <p><span>地 址：</span>上海市徐汇区虹漕路39号B栋3楼</p>
+        </div>
+        <div class="qr-code">
+          <div class="fl-l">
+            <img src="images/weixin_1.jpg" alt="">
+            <p>关注官方微博</p>
+          </div>
+          <div class="fl-r">
+            <img src="images/weixin_2.jpg" alt="">
+            <p>关注微信号公众号</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul>
+      <li>上海寓悦科技有限公司</li>
+      <li>Shanghai Houpix Technology Co., Ltd</li>
+      <li> 沪ICP备15053773号-1</li>
+      <li><a href="">快递查询</a></li>
+    </ul>
+  </div>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+  <script src="js/unslider-min.js"></script>
+  <script src="js/jquery.event.move.js"></script>
+  <script src="js/jquery.event.swipe.js"></script>
+  <script>
+    if(window.chrome) {
+      $('.banner li').css('background-size', '100% 100%');
+    }
+
+    $('.banner').unslider({
+      arrows: false,
+      fluid: true,
+      dots: true
+    });
+  </script>
+</body>
+</html>
